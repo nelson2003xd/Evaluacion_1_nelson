@@ -1,0 +1,19 @@
+body{
+    background-image: url(Nature.jpeg)
+}
+
+.Titulo{
+    margin-top: 30px;
+    margin-left: 46px;
+    margin-right: 46px;
+}
+
+.card{
+    margin-left: 46px;
+    background-color: aquamarine;
+    border: 4px blue solid;
+}
+
+.preu{
+    margin:  100px;
+}

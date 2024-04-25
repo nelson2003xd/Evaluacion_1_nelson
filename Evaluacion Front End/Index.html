@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Aca ponemos el link para llamar bootstrap y poder utilizarlo-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Evaluacion.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <!--En esta parte de la evaluacion puse un menu o navbar como se le llama en bootstrap -->
+    
+        <nav class="navbar navbar-expand-sm bg-body-tertiar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Colegio Adventista</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">Noticias </a>
+                  <a class="nav-link" href="#">Deportes </a>
+                  <a class="nav-link " href="#">Delegados</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+    
+<!-- En este apartado aplicamos un carrusel -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner p-5" >
+
+            <!--Aplique las imagenes y modificamos-->
+          <div class="carousel-item active" style="max-height: 600px;" >
+            <img src="Matriculas.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" style="max-height: 500px ;" >
+            
+            <img src="Deportes.jpg" class="d-block w-100" alt="...">
+            
+          </div>
+        
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+          
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          
+        </button>
+      </div>
+
+      <div class="hola">
+        <div class="row p-5">
+          <h1>Biblioteca</h1>
+          <div class="col"> <img src="biblioteca.jpeg" alt="" style="border: 5px yellowgreen solid;"></div>
+          
+          <div class="col"> <img src=" alt=" style="border: 5px yellowgreen solid;"></div>
+        </div>
+        </div>
+
+        <!-- Titulo -->
+      </div>
+
+       <div class="Titulo ">
+          <h5 class="text-center alert alert-danger p-5">Cursos</h5>
+       </div>
+
+     
+      </div>
+
+<!--Cursos en una fila y sus respectivas columnas, en este caso 4 filas con 3 columnas y 1 fila con una columna --> <!-- OJO con la separacion si no jode todo.....-->
+<h1 class="Basica text-center"> Cursos de enseñanza básica y kinder </h1>
+
+    <div class="container text-center m-5 ">
+      
+        <div class="row align-items-start p-5 alert alert-warning " style="border: 5px yellow solid;" >
+          <div class="col-sm-2 col-mg-4 col-lg-2 alert alert-primary">Kinder</div>
+          <div class="col-sm-2 col-mg-4 col-lg-2 alert alert-primary">Segundo básico</div>
+          <div class="col-sm-2 col-mg-4 col-lg-2 alert alert-primary">Primero básico</div>
+        </div>
+        <div class="row align-items-start p-5 alert alert-primary  " style="border: 5px aquamarine solid;">
+            <div class="col-sm-2 col-mg-4 col-lg-2 alert alert-danger">Tercero básico</div>
+            <div class="col-sm-2 col-mg-4 col-lg-2 alert alert-danger">Cuarto básico</div>
+            <div class="col-sm-2 col-mg-4 col-lg-2 alert alert-danger">Quinto básico</div>
+          </div>
+          <div class="row align-items-start  p-5 alert alert-secondary" style="border: 5px orange inset;">
+            <div class="col-sm-2 col-mg-4 col-lg-2 alert alert-success">Sexto básico</div>
+            <div class="col-sm-2 col-mg-4 col-lg-2 alert alert-success">Septimo básico</div>
+            <div class="col-sm-2 col-mg-4 col-lg-2 alert alert-success">Octavo básico</div>
+          </div>
+          <h1 class="Media"> Cursos de enseñanza media  </h1>
+          <div class="row align-items-start  p-5 alert alert-danger" style="border: 5px orange inset;">
+            <div class="col-sm-2 col-mg-4 col-lg-2 alert alert-warning">Primero Medio</div>
+            <div class="col-sm-2 col-mg-4 col-lg-2 alert alert-warning">Segundo Medio</div>
+            <div class="col-sm-2 col-mg-4 col-lg-2 alert alert-warning">Tercero Medio</div>
+          </div>
+          <div class="row align-items-start p-5 alert alert-success " style="border: 5px green solid">
+            <div class="col-sm-2 col-mg-4 col-lg-2 alert alert-primary">Cuarto Medio</div>
+
+        </div>
+    </div>
+
+<!-- En este apartado queremos mostrar por medio de una tarhetas noticias especificas o semanales -->
+<div class="row">
+
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body p-5">
+       <h5 class="card-title">Profesores </h5>
+       <h6 class="card-subtitle mb-2 text-body-secondary">Enseñanza básica </h6>
+       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       
+      </div>
+    </div>
+  </div>
+<!-- Se aplicana tarjetas, esta es una columna de las 3 qque hay -->
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+         <div class="card-body p-5">
+         <h5 class="card-title">Profesores </h5>
+         <h6 class="card-subtitle mb-2 text-body-secondary">Enseñanza básica </h6>
+         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         
+    </div>
+  </div>
+</div>
+
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+       <div class="card-body p-5">
+           <h5 class="card-title">Noticias </h5>
+           <h6 class="card-subtitle mb-2 text-body-secondary">Inofromacion semanal</h6>
+           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       
+        </div>
+    </div>
+  </div>
+
+  <!-- Informacion acerca de las clases verpertinas, con su titulo e infromacion abajo en una fila y dos columnas -->
+
+  <div class="container">
+
+    <div class=" text-center p-5"> <h1>Acerca de clases vespertinas </h1> </div>
+
+    <div class="row">
+      <div class="col">En este apartado podria dar infromacion acerca de los dias y horarios que se puedne hacer clases verpertinas </div>
+      <div class="col"> y en este apartdao podemos poner los profesrores a cargo de cada asignatura </div>
+    </div>
+  </div>
+<!-- Una fila y dos columnas, una para la imagen y otra para el texto -->
+  <div class="preu">
+    <div class="row  m-5">
+      <div class="col"  >
+        <img src="preuniversitario.jpeg" alt="">
+      </div>
+
+      <div class="col">
+        <H1> Preuniversitario </H1>
+        Fechas y horas se daran a a conocer durante el mes de mayo
+      </div>
+    </div>
+  </div>
+     
+
+
+</div>
+
+
+    
+</body>
+</html>
